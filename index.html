@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kółko i krzyżyk</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="has-text-centered">
+            <h1 class="title">Kółko i krzyżyk</h1>
+            <h2 class="subtitle">Wygraj w grze!</h2>
+        </div>
+
+        <div id="gameMessage" class="notification is-info"></div>
+
+
+        <div class="game-container">
+            
+            <div class="board">
+                <div class="board-row">
+                    <div class="board-cell" data-index="0"></div>
+                    <div class="board-cell" data-index="1"></div>
+                    <div class="board-cell" data-index="2"></div>
+                </div>
+                <div class="board-row">
+                    <div class="board-cell" data-index="3"></div>
+                    <div class="board-cell" data-index="4"></div>
+                    <div class="board-cell" data-index="5"></div>
+                </div>
+                <div class="board-row">
+                    <div class="board-cell" data-index="6"></div>
+                    <div class="board-cell" data-index="7"></div>
+                    <div class="board-cell" data-index="8"></div>
+                </div>
+            </div>
+        </div>
+
+        
+        <button id="restartBtn" class="button is-primary is-fullwidth" style="display: none;">Restartuj grę</button>
+    </div>
+
+    
+    <script src="java.js"></script>
+</body>
+</html>
